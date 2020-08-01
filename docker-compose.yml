@@ -28,7 +28,7 @@ services:
     links:
       - db:db
     ports:
-      - 3000:3000
+      - 5000:3000
     volumes:
       - .:/usr/src/app
     tty: true
