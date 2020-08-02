@@ -4,7 +4,7 @@ services:
     image: postgres:9.4.5
     volumes:
       #- /var/lib/postgresql/data:/var/lib/postgresql/data
-      - /var/lib/postgresql/9.5/main:/var/lib/postgresql/data
+      - /var/lib/postgresql/9.5/xcgradus:/var/lib/postgresql/data
     ports:
       - "5432"
     env_file: .env
@@ -28,7 +28,7 @@ services:
     links:
       - db:db
     ports:
-      - 6000:3000
+      - 3001:3000
     volumes:
       - .:/usr/src/app
     tty: true

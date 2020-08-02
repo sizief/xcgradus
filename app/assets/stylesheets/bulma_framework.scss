@@ -1,0 +1,15 @@
+// define override
+//$footer-background-color: red;
+//$footer-color: true;
+
+// import all styles
+//@import "bulma";
+
+// import what you need only
+// find them here https://github.com/jgthms/bulma/tree/master/sass/base
+@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/base/_all.sass";
+@import "bulma/sass/layout/section.sass";
+@import "bulma/sass/layout/footer.sass";
+@import "bulma/sass/elements/container.sass";
+@import "bulma/sass/elements/title.sass";
