@@ -1,6 +1,6 @@
 ## TODO
-[] First page on prod is accessible under dummy URL
-[] CI
+[x] First page on prod is accessible under dummy URL
+[x] CI
 [] First page
 [] Collection
 [] Item
