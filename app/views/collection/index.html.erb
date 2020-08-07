@@ -1,0 +1,23 @@
+<section class="section">
+  <div class="container">
+    <h1 class="title">
+      <%= @collection[:title] %>
+    </h1>
+    <p class="subtitle">
+      <%= @collection[:description] %>
+    </p>
+    <p>
+    <h3>Items:</h3>
+      <ul>
+        <% for item_key in @collection[:items].keys %>
+        <% item = @collection[:items][item_key] %>
+        <li>
+          <%=
+            link_to item[:title],item_path({collection: @collection[:slug], item: item[:slug]})
+          %>
+        </li>
+        <% end %>
+      </ul>
+    </p>
+  </div>
+</section>

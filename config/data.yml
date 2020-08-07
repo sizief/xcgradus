@@ -1,0 +1,19 @@
+top-ten-classic-sci-fi:
+  slug: top-ten-classic-sci-fi
+  title: Sci fi master pieces of 19th century
+  description: This is a best collection of 19th century novels
+  items:
+    the-time-machine:
+      slug: the-time-machine
+      title: The time machine
+      description: The Time Machine is a science fiction novella by H. G. Wells, published in 1895 and written as a frame narrative. The work is generally credited with the popularization of the concept of time travel by using a vehicle or device to travel purposely and selectively forward or backward through time. The term "time machine", coined by Wells, is now almost universally used to refer to such a vehicle or device.
+      address: 0x123456789
+      count: 10
+      sold: 5
+    the-war-of-the-worlds:
+      slug: the-war-of-the-worlds
+      title: The war of the worlds
+      description: The War of the Worlds is a science fiction novel by English author H. G. Wells, first serialised in 1897 by Pearson's Magazine in the UK and by Cosmopolitan magazine in the US. The novel's first appearance in hardcover was in 1898 from publisher William Heinemann of London. Written between 1895 and 1897,[2] it is one of the earliest stories to detail a conflict between mankind and an extraterrestrial race.[3] The novel is the first-person narrative of both an unnamed protagonist in Surrey and of his younger brother in London as southern England is invaded by Martians. The novel is one of the most commented-on works in the science fiction canon.
+      address: 0x222222
+      count: 10
+      sold: 6

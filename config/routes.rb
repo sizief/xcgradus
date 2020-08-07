@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  #get 'collection/index'
+  get '/:collection/', to: 'collection#index', as: 'collection'
+  get '/:collection/:item', to: 'item#index', as: 'item'
   root 'page#index'
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

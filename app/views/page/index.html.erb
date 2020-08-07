@@ -7,7 +7,14 @@
         Rare paintings on <strong>Blockchain</strong>
     </p>
     <p>
-      <h2>Coming soon.</h2>
+    <h2>
+      <% for collection in @data.keys %>
+        <%=
+          link_to @data[collection][:title],
+          collection_path({collection: @data[collection][:slug]}) 
+        %>
+      <% end %>
+    </h2>
     </p>
   </div>
 </section>
