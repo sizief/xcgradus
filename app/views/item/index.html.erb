@@ -89,7 +89,7 @@
       <% for item_key in @collection[:items].keys %>
         <% item = @collection[:items][item_key] %>
         <% next if item[:id] == @item[:id] %> 
-      <div class="column">
+      <div class="column is-one-third-mobile">
         <div class="card">
           <div class="card-image">
             <%= link_to item_path({collection: @collection[:slug], item: item[:slug]}) do %>
