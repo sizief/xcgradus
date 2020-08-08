@@ -9,3 +9,5 @@
 [] Contracts on testnet
 [] Contracts on Mainnet
 [] Party!
+[] SEO
+[] About us
