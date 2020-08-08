@@ -4,7 +4,7 @@
 
     <div class="columns is-vcentered">
       <div class="column">
-        <figure class="image mb-3 has-text-centered" style="width: 250px; margin: auto;box-shadow: 0.5em 0.5em 1em -0.5em rgba(10, 10, 10, 0.3), 0 0px 0 1px rgba(10, 10, 10, 0.1);border: 1px solid #8a8888;">
+        <figure class="image mb-3 has-text-centered" style="width: 300px; margin: auto;box-shadow: 0.5em 0.5em 1em -0.5em rgba(10, 10, 10, 0.3), 0 0px 0 1px rgba(10, 10, 10, 0.1);border: 1px solid #8a8888;">
           <%=
               image_tag item_image_url(@collection[:slug], @item[:slug]),
               alt: @item[:title]
@@ -74,5 +74,39 @@
       <div class="column is-2"></div>
     </div>
 
-  </div>
+
+    <div class="columns">
+      <div class="column is-2"></div>
+      <div class="column is-8">
+        <p>
+        This item is part of a <%= @collection[:title] %> collection. You can own this one sperately or you can own all the items in the collection. Below you can see rest of the collection.
+        </p>
+      </div>
+      <div class="column is-2"></div>
+    </div>
+    <div class="columns">
+      <div class="column is-2"></div>
+      <% for item_key in @collection[:items].keys %>
+        <% item = @collection[:items][item_key] %>
+        <% next if item[:id] == @item[:id] %> 
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <%= link_to item_path({collection: @collection[:slug], item: item[:slug]}) do %>
+              <figure class="image">
+                <%=
+                    image_tag item_image_url_thumbnail(@collection[:slug], item[:slug]),
+                      alt: item[:title]
+                %>
+              </figure>
+            <% end %>
+          </div>
+        </div>
+      </div>
+      <% end %>
+      <div class="column is-2"></div>
+      </div>
+
+
+    </div>
 </section>

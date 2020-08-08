@@ -3,10 +3,9 @@
 [x] CI
 [x] First page
 [x] Collection
-[] Item
+[x] Item
 [x] Page titles
 [] Domain
 [] Contracts on testnet
 [] Contracts on Mainnet
 [] Party!
-
