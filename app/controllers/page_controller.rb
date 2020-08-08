@@ -1,5 +1,5 @@
 class PageController < ApplicationController
   def index
-    @data = data
+    @collection = data['top-ten-classic-sci-fi']
   end
 end

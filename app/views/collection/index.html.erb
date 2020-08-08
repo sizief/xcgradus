@@ -1,23 +1,56 @@
+<section class="hero is-small is-dark is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        XCGRADUS
+      </h1>
+      <h2 class="subtitle">
+        Rare digital paintings on <strong>Blockchain</strong>
+      </h2>
+    </div>
+  </div>
+</section>
+
 <section class="section">
   <div class="container">
-    <h1 class="title">
+
+    <div class="tags has-addons">
+      <span class="tag">Collection</span>
+      <span class="tag is-primary">10 pieces</span>
+    </div>
+
+    <h2 class="subtitle is-3">
       <%= @collection[:title] %>
-    </h1>
-    <p class="subtitle">
-      <%= @collection[:description] %>
+    </h2>
+
+    <p class='mb-5'>
+      We stand on the shoulders of the giants. 
     </p>
-    <p>
-    <h3>Items:</h3>
-      <ul>
-        <% for item_key in @collection[:items].keys %>
-        <% item = @collection[:items][item_key] %>
-        <li>
-          <%=
-            link_to item[:title],item_path({collection: @collection[:slug], item: item[:slug]})
-          %>
-        </li>
-        <% end %>
-      </ul>
-    </p>
+
+    <% counter=0 %> 
+    <% for item_key in @collection[:items].keys %>
+      <% item = @collection[:items][item_key] %>
+      <% if counter % 3 == 0 %>
+      <div class="tile is-ancestor">
+      <% end %>
+        <div class="tile is-parent is-4">
+          <div class='tile is-child box'>
+            <%= link_to item_path({collection: @collection[:slug], item: item[:slug]}) do %>
+              <figure class="image mb-3">
+                <%=
+                    image_tag item_image_url(@collection[:slug], item[:slug]),
+                    alt: item[:title]
+                %>
+              </figure>
+              <span class='is-size-6'><%= item[:title]%></span>
+            <% end %>
+          </div>
+        </div>
+      <% counter =counter+1%>
+      <% if counter % 3 == 0 %>
+      </div>
+      <% end %>
+    <% end %>
   </div>
+</div>
 </section>

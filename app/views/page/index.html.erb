@@ -1,20 +1,56 @@
+<section class="hero is-medium is-dark is-bold">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">
+        XCGRADUS
+      </h1>
+      <h2 class="subtitle">
+        Rare digital paintings on <strong>Blockchain</strong>
+      </h2>
+    </div>
+  </div>
+</section>
+
 <section class="section">
   <div class="container">
-    <h1 class="title">
-        XCGRADUS
-    </h1>
-    <p class="subtitle">
-        Rare paintings on <strong>Blockchain</strong>
-    </p>
-    <p>
-    <h2>
-      <% for collection in @data.keys %>
-        <%=
-          link_to @data[collection][:title],
-          collection_path({collection: @data[collection][:slug]}) 
-        %>
-      <% end %>
+    <div class="tags has-addons">
+      <span class="tag">Collection</span>
+      <span class="tag is-primary">10 pieces</span>
+    </div>
+    <h2 class="subtitle is-3">
+      <%= @collection[:title] %>
     </h2>
+    <p class='mb-5'>
+      We stand on the shoulders of the giants. 
     </p>
+    <div class="tile is-ancestor">
+      <% for item_key in @collection[:items].keys[0..2] %>
+        <% item = @collection[:items][item_key] %>
+        <div class="tile is-parent">
+          <div class='tile is-child box'>
+            <%= link_to item_path({collection: @collection[:slug], item: item[:slug]}) do %>
+              <figure class="image mb-3">
+              <%=
+                  image_tag item_image_url(@collection[:slug], item[:slug]),
+                  alt: item[:title]
+                %>
+              </figure>
+              <span class='is-size-6'><%= item[:title]%></span>
+            <% end %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+
+    <div class="tile is-ancestor">
+      <div class="tile is-parent">
+        <div class="tile is-child">
+          <%= link_to collection_path({collection: @collection[:slug]}) do %>
+            <button class="button is-link">See the collection page</button
+          <% end %>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>

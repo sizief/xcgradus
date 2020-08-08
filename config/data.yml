@@ -1,6 +1,6 @@
 top-ten-classic-sci-fi:
   slug: top-ten-classic-sci-fi
-  title: Sci fi master pieces of 19th century
+  title: Top Ten Classic Sci fi
   description: This is a best collection of 19th century novels
   items:
     the-time-machine:
@@ -9,11 +9,67 @@ top-ten-classic-sci-fi:
       description: The Time Machine is a science fiction novella by H. G. Wells, published in 1895 and written as a frame narrative. The work is generally credited with the popularization of the concept of time travel by using a vehicle or device to travel purposely and selectively forward or backward through time. The term "time machine", coined by Wells, is now almost universally used to refer to such a vehicle or device.
       address: 0x123456789
       count: 10
-      sold: 5
+      priority: 1
     the-war-of-the-worlds:
       slug: the-war-of-the-worlds
       title: The war of the worlds
       description: The War of the Worlds is a science fiction novel by English author H. G. Wells, first serialised in 1897 by Pearson's Magazine in the UK and by Cosmopolitan magazine in the US. The novel's first appearance in hardcover was in 1898 from publisher William Heinemann of London. Written between 1895 and 1897,[2] it is one of the earliest stories to detail a conflict between mankind and an extraterrestrial race.[3] The novel is the first-person narrative of both an unnamed protagonist in Surrey and of his younger brother in London as southern England is invaded by Martians. The novel is one of the most commented-on works in the science fiction canon.
       address: 0x222222
       count: 10
-      sold: 6
+      priority: 2
+    twenty-thousand-leagues-under-the-sea:
+      slug: twenty-thousand-leagues-under-the-sea
+      title: Twenty thousand leagues under the sea
+      description: The novel was originally serialized from March 1869 through June 1870 in Pierre-Jules Hetzel's fortnightly periodical, the Magasin d'éducation et de récréation. A deluxe octavo edition, published by Hetzel in November 1871, included 111 illustrations by Alphonse de Neuville and Édouard Riou.[1] The book was widely acclaimed on its release and remains so.
+      address: 0x222222
+      count: 10
+      priority: 3
+    the-island-of-doctor-moreau:
+      slug: the-island-of-doctor-moreau
+      title: The island of doctor Moreau
+      description: is an 1896 science fiction novel by English author H. G. Wells. The text of the novel is the narration of Edward Prendick, a shipwrecked man rescued by a passing boat who is left on the island home of Doctor Moreau, a mad scientist who creates human-like hybrid beings from animals via vivisection. The novel deals with a number of philosophical themes, including pain and cruelty, moral responsibility, human identity, and human interference with nature.
+      address: 0x222222
+      count: 10
+      priority: 4
+    the-invisible-man:
+      slug: the-invisible-man
+      title: The invisible man
+      description: is a science fiction novel by H. G. Wells. Originally serialized in Pearson's Weekly in 1897, it was published as a novel the same year. The Invisible Man the title refers to is Griffin, a scientist who has devoted himself to research into optics and invents a way to change a body's refractive index to that of air so that it neither absorbs nor reflects light and thus becomes invisible.
+      address: 0x222222
+      count: 10
+      priority: 5
+    the-facts-in-the-case-of-m:
+      slug: the-facts-in-the-case-of-m.-valdemar
+      title: The facts in the case of M. Valdemar
+      description: a short story by American author Edgar Allan Poe about a mesmerist who puts a man in a suspended hypnotic state at the moment of death. An example of a tale of suspense and horror, it is also, to a certain degree, a hoax, as it was published without claiming to be fictional, and many at the time of publication (1845) took it to be a factual account. Poe toyed with this for a while before admitting it was a work of pure fiction in his marginalia. 
+      address: 0x222222
+      count: 10
+      priority: 6
+    journey-to-the-center-of-the-earth:
+      slug: journey-to-the-center-of-the-earth
+      title: Journey to the center of the earth
+      description: Journey to the Center of the Earth (Voyage au centre de la Terre), also translated with the variant titles A Journey to the Centre of the Earth and A Journey into the Interior of the Earth), is a classic science fiction novel by Jules Verne. It was first published in French in 1864, then reissued in 1867 in a revised and expanded edition. 
+      address: 0x222222
+      count: 10
+      priority: 7
+    from-the-earth-to-the-moon:
+      slug: from-the-earth-to-the-moon
+      title: from-the-earth-to-the-moon
+      description: an 1865 novel by Jules Verne. It tells the story of the Baltimore Gun Club, a post-American Civil War society of weapons enthusiasts, and their attempts to build an enormous Columbiad space gun and launch three people—the Gun Club's president, his Philadelphian armor-making rival, and a French poet—in a projectile with the goal of a Moon landing. Five years later, Verne wrote a sequel called Around the Moon. 
+      address: 0x222222
+      count: 10
+      priority: 8
+    frankenstein:
+      slug: frankenstein
+      title: Frankenstein
+      description: an 1818 novel written by English author Mary Shelley (1797–1851) that tells the story of Victor Frankenstein, a young scientist who creates a hideous sapient creature in an unorthodox scientific experiment. Shelley started writing the story when she was 18, and the first edition was published anonymously in London on 1 January 1818, when she was 20.[2] Her name first appeared in the second edition published in Paris in 1821.
+      address: 0x222222
+      count: 10
+      priority: 9
+    a-mescent-into-the-maelstrom:
+      slug: a-mescent-into-the-maelstrom
+      title: A mescent into the maelstrom
+      description: an 1841 short story by Edgar Allan Poe. In the tale, a man recounts how he survived a shipwreck and a whirlpool. It has been grouped with Poe's tales of ratiocination and also labeled an early form of science fiction.
+      address: 0x222222
+      count: 10
+      priority: 10
