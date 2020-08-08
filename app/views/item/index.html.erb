@@ -1,17 +1,78 @@
+<% content_for :title, @item[:title] %>
 <section class="section">
   <div class="container">
-    <h1 class="title">
-      <%= @item[:title] %>
-    </h1>
-    <p class="subtitle">
-      <%= @item[:description] %>
-    </p>
 
-    <p> 
-      <h3>All copies: <%= @item[:count] %></h3>
-    </p>
-    <p>
-      <h3>Address: <%= @item[:address] %></h3>
-    </p>
+    <div class="columns is-vcentered">
+      <div class="column">
+        <figure class="image mb-3 has-text-centered" style="width: 250px; margin: auto;box-shadow: 0.5em 0.5em 1em -0.5em rgba(10, 10, 10, 0.3), 0 0px 0 1px rgba(10, 10, 10, 0.1);border: 1px solid #8a8888;">
+          <%=
+              image_tag item_image_url(@collection[:slug], @item[:slug]),
+              alt: @item[:title]
+          %>
+        </figure>
+      </div>
+      <div class="column">
+        <h1 class="subtitle is-4">
+          <%= @item[:title] %>
+        </h1>
+        <h2 class="subtitle is-6">
+          <%= @item[:author] %>,
+          <%= @item[:published_at] %>
+        </h2>
+        <div class="tags has-addons">
+          <span class="tag">ERC721 Token</span>
+          <span class="tag is-primary">10 copies</span>
+        </div>
+        <div class="tags has-addons">
+          <span class="tag">
+            <%= link_to @collection[:title], collection_path({collection: @collection[:slug]}) %>
+          </span>
+          <span class="tag is-primary"><%= @item[:id] %></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns mt-6 mb-6">
+      <div class="column is-1"></div>
+      <div class="column">
+        <p class="subtitle">
+          <%= @item[:description] %>
+        </p>
+      </div>
+      <div class="column is-1"></div>
+    </div>
+
+
+    <div class="columns">
+      <div class="column is-2"></div>
+      <div class="column is-8">
+        <table class="table is-bordered is-striped is-hoverable is-fullwidth">
+          <thead>
+            <tr>
+              <td>
+                Owner
+              </td>
+              <td>
+                Buy at
+              </td>
+            </tr>
+          </thead>
+          <tbody>
+            <% for owner in @owners %>
+            <tr>
+              <td>
+                <%= owner.address %>
+              </td>
+              <td>
+                <%= owner.buy_at %>
+              </td>
+            </tr>
+            <% end %>
+          </tbody>
+        </table>
+      </div>
+      <div class="column is-2"></div>
+    </div>
+
   </div>
 </section>
