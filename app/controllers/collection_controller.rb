@@ -5,6 +5,17 @@ class CollectionController < ApplicationController
     @collection = data[params[:collection]]
   end
 
+  def contract
+    collection = data[params[:collection]]
+
+    render json: {
+      description: collection[:description],
+      name: collection[:title],
+      image: nil,
+      external_link: "#{root_url}#{collection[:slug]}"
+    }
+  end
+
   private
   def check_existance
     return if data.dig params[:collection]
