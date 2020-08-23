@@ -1,7 +1,8 @@
-pragma solidity ^0.6.12;
+//SPDX-License-Identifier: MIT
+pragma solidity ^0.5.0;
 
 import "./ERC721Tradable.sol";
-import "openzeppelin-solidity/contracts/ownership/Ownable.sol";
+import '@openzeppelin/contracts/access/Ownable.sol';
 
 /**
  * @title Creature

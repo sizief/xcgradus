@@ -1,7 +1,9 @@
-pragma solidity ^0.6.12;
+//SPDX-License-Identifier: MIT
+pragma solidity ^0.5.0;
 
-import 'openzeppelin-solidity/contracts/token/ERC721/ERC721Full.sol';
-import 'openzeppelin-solidity/contracts/ownership/Ownable.sol';
+import '@openzeppelin/contracts/token/ERC721/ERC721.sol';
+import '@openzeppelin/contracts/access/Ownable.sol';
+//import '@openzeppelin/contracts/utils/Strings.sol';
 import './Strings.sol';
 
 contract OwnableDelegateProxy { }
@@ -14,13 +16,13 @@ contract ProxyRegistry {
  * @title ERC721Tradable
  * ERC721Tradable - ERC721 contract that whitelists a trading address, and has minting functionality.
  */
-contract ERC721Tradable is ERC721Full, Ownable {
+contract ERC721Tradable is ERC721, Ownable {
   using Strings for string;
 
   address proxyRegistryAddress;
   uint256 private _currentTokenId = 0;
 
-  constructor(string memory _name, string memory _symbol, address _proxyRegistryAddress) ERC721Full(_name, _symbol) public {
+  constructor(string memory _name, string memory _symbol, address _proxyRegistryAddress) ERC721(_name, _symbol) public {
     proxyRegistryAddress = _proxyRegistryAddress;
   }
 
