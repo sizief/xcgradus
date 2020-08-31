@@ -25,7 +25,8 @@ node scripts/mint.js
 [x] Domain
 [x] Contracts on testnet
 [] Contracts on Mainnet
-[] Chnage the contract address on data yaml file
+[] Change the contract address on data yaml file
+[] Change the store front on data yaml file
 [] SEO
 [] About us
 [] Party!

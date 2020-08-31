@@ -1,16 +1,17 @@
 top-ten-classic-sci-fi:
   contract_address: https://rinkeby.etherscan.io/token/0x112537FF9958c9B14E4FC0f427c29Ee8ECd44f98
+  opensea_store: https://rinkeby.opensea.io/assets/0x112537FF9958c9B14E4FC0f427c29Ee8ECd44f98
   slug: top-ten-classic-sci-fi
   title: Top Ten Classic Sci fi
   description: A collection of digital paintings of some of the best science fiction novels of the 19th century. We select ten novels that has the most profound effect on our vision of the future.
   items:
     the-time-machine:
-      id: 0
+      id: 10
       slug: the-time-machine
       title: The time machine
       description: If today, Wells claimed intellectual ownership of the term “Time Machine”, he would have been one of the wealthiest man of all times. His imaginary machine has been used more than anything else in Si-fi cinema and literature. 100 years after the publication of The Time Machine, it seems we are still far away from an invention of such kind. But we owe the existence of this machine, even in the world of imagination, to Mr. Wells.
       address: 0x123456789
-      count: 5
+      count: 1
       priority: 1
       author: H. G. Wells
       published_at: 1895
@@ -20,7 +21,7 @@ top-ten-classic-sci-fi:
       title: The war of the worlds
       description: "Smart UFOs enthusiasts have a love/hate relationship with H. G. Wells’ The War of the Worlds. For the first time in this novel, we are faced with the possibility of encounter with smart aliens. On the other hand, these creatures are hostile and have one goal in mind: occupy the Earth. This cynical theme was not something to be easily forgotten by the other writers in the century to come. Maybe one day, we get to see for ourselves if Wells was a realist or a pessimist."
       address: 0x222222
-      count: 5
+      count: 1
       priority: 2
       author: H. G. Wells
       published_at: 1898
@@ -30,7 +31,7 @@ top-ten-classic-sci-fi:
       title: Twenty thousand leagues under the sea
       description: In his adventure book, Jules Verne pictured a giant submarine whose replica was invented only decades later after the novel. The dreamy Nautilus reappeared in The Mysterious Island. On the other hand, Nautilus is one of the sources of inspiration for the fans of Steampunk. Nautilus turned out to be a popular name for all kinds of ships and submarines later on.
       address: 0x222222
-      count: 5
+      count: 1
       priority: 3
       author: Jules Verne
       published_at: 1870
@@ -40,7 +41,7 @@ top-ten-classic-sci-fi:
       title: The island of doctor Moreau
       description: Nowadays, secret military labs who harvest genetically altered creatures is a popular myth among those who entertain themselves with conspiracy theories. But this idea was first brought up in The Island of Doctor Moreau, a novel by H. G. Wells. This book is about an Island in which a half crazy doctor grows his genetically altered creatures as slaves. His vision about genetic alteration and the essence of mankind are still viable and noteworthy.
       address: 0x222222
-      count: 5
+      count: 1
       priority: 4
       author: H. G. Wells
       published_at: 1896
@@ -50,7 +51,7 @@ top-ten-classic-sci-fi:
       title: The invisible man
       description: We are highly indebted to H. G. Wells for what we know about soft sci-fi, specially to his book, The Invisible Man. In his book, we get to explore how being invisible can result in very complex inter-personal situations. His story is still a source of inspiration for writers and filmmakers to this day. 100 years have passed since The Invisible Man was first published and yet, being invisible is still a dream to come true for the mankind.
       address: 0x222222
-      count: 5
+      count: 1
       priority: 5
       author: H. G. Wells
       published_at: 1897
@@ -60,7 +61,7 @@ top-ten-classic-sci-fi:
       title: The facts in the case of M. Valdemar
       description: In Poe’s time, Hypnosis was still considered sorcery. Years later, hypnosis was gradually perceived to be a part of pseudo-science and later on, science, rather than sorcery and witchcraft. In his story however, Poe employs hypnosis to enter the dark side of the mind as if it is an established part of the science in his time. His story is a borderline between science fiction and dark fantasy.
       address: 0x222222
-      count: 5
+      count: 1
       priority: 6
       author: Edgar Allan Poe
       published_at: 1845
@@ -70,7 +71,7 @@ top-ten-classic-sci-fi:
       title: Journey to the center of the earth
       description: What is going on underneath our world? In his legendary piece of work, Jules Verne revived dinosaurs and other ancient creatures in depths of Earth and painted our world in a different color. This book is among the first works in which the reader faces both giant fictional monsters and a set of mysteries combined with scientific facts.
       address: 0x222222
-      count: 5
+      count: 1
       priority: 7
       author: Jules Verne
       published_at: 1864
@@ -80,7 +81,7 @@ top-ten-classic-sci-fi:
       title: From the earth to the moon
       description: Jules Verne wrote this story in a time when we were still half a century away from seeing the first air plane flying. Like all the other dreamers, he was able to see further in time. It took 104 years for his dream to come true. Hats off to his extraordinary vision.
       address: 0x222222
-      count: 5
+      count: 1
       priority: 8
       author: Jules Verne
       published_at: 1865
@@ -91,7 +92,7 @@ top-ten-classic-sci-fi:
       description: "Mary Shelley’s shocking novel is still one of the most powerful images of the encounter between man and an intelligent creature born out of science. 
 No work under this sub-genre can overlook Frankenstein and its gory world. Mary Shelley’s creation (which has no name other than this creation) has been a part of the pop culture in the world and what better reason is there to put this book among the best of all time?"
       address: 0x222222
-      count: 5
+      count: 1
       priority: 9
       author: Mary Shelley
       published_at: 1823
@@ -101,7 +102,7 @@ No work under this sub-genre can overlook Frankenstein and its gory world. Mary 
       title: A descent into the maelstrom
       description: A sci-fi story about a frozen Earth or oceans flooding and overflowing seems very ordinary today. But 120 years ago, it was not so ordinary. Someone wrote a story about a man who was caught in a whirlpool and described with horrifying details what he goes through and how he fights the gruesome forces of nature. That someone is Edgar Allan Poe and his moving story is the pioneer of one of the sci-fi sub-genres. Thank you, Mr. Poe!
       address: 0x222222
-      count: 5
+      count: 1
       priority: 10
       author: Edgar Allan Poe
       published_at: 1841

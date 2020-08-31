@@ -21,19 +21,28 @@
         </h2>
         <div class="tags has-addons">
           <span class="tag">
-            <%= link_to 'Contract', @collection[:contract_address] %>
+            <%= link_to 'This item on blockchain', "#{@collection[:contract_address]}?a=#{@item[:id]}" %>
           </span>
-          <span class="tag is-primary">ERC721 Token</span>
+          <span class="tag is-primary">ERC721</span>
         </div>
         <div class="tags has-addons">
           <span class="tag">
             <%= link_to @collection[:title], collection_path({collection: @collection[:slug]}) %>
           </span>
-          <span class="tag is-primary">10</span>
+          <span class="tag is-primary">10 items</span>
         </div>
         <div class="tags has-addons">
-          <span class="tag">Copies</span>
+          <span class="tag">Number of Copies</span>
           <span class="tag is-primary"><%= @item[:count] %></span>
+        </div>
+        <%= link_to "#{@collection[:opensea_store]}/#{@item[:id]}" do %>
+          <button class="button is-active is-success is-medium">
+            Own this item on blockchain
+          </button>
+        <% end %>
+        <div style="font-size: 0.7rem; padding-top:5px">
+          Powered by OpenSea
+          <%= image_tag "/opensea-logo.png", style: "display: inline-block; margin-bottom: -4px;", class: 'image is-16x16' %>
         </div>
       </div>
     </div>
