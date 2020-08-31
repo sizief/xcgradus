@@ -4,8 +4,8 @@ class ItemApiController < ApplicationController
 
   def index
     collection = data.dig(params[:collection])
-    item_id = (params[:id].to_i / 10).to_i
-    copy_id = (params[:id].to_i % 10).to_i
+    item_id = (params[:id].to_i % 10).to_i
+    copy_id = (params[:id].to_i / 10).to_i
     item_key = collection[:items].keys.select do |key|
       collection[:items][key][:id] == item_id
     end
@@ -25,7 +25,7 @@ class ItemApiController < ApplicationController
   private
 
   def copy_id_to_show(copy_id, item)
-    "#{copy_id == 0 ? 10 : copy_id}/#{item[:count]}"
+    item[:count]
   end
 
   def check_existance

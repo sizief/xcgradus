@@ -1,15 +1,16 @@
 top-ten-classic-sci-fi:
+  contract_address: https://rinkeby.etherscan.io/token/0x112537FF9958c9B14E4FC0f427c29Ee8ECd44f98
   slug: top-ten-classic-sci-fi
   title: Top Ten Classic Sci fi
-  description: This is a best collection of 19th century novels
+  description: A collection of digital paintings of some of the best science fiction novels of the 19th century. We select ten novels that has the most profound effect on our vision of the future.
   items:
     the-time-machine:
       id: 0
       slug: the-time-machine
       title: The time machine
-      description: The Time Machine is a science fiction novella by H. G. Wells, published in 1895 and written as a frame narrative. The work is generally credited with the popularization of the concept of time travel by using a vehicle or device to travel purposely and selectively forward or backward through time. The term "time machine", coined by Wells, is now almost universally used to refer to such a vehicle or device.
+      description: If today, Wells claimed intellectual ownership of the term “Time Machine”, he would have been one of the wealthiest man of all times. His imaginary machine has been used more than anything else in Si-fi cinema and literature. 100 years after the publication of The Time Machine, it seems we are still far away from an invention of such kind. But we owe the existence of this machine, even in the world of imagination, to Mr. Wells.
       address: 0x123456789
-      count: 10
+      count: 5
       priority: 1
       author: H. G. Wells
       published_at: 1895
@@ -17,9 +18,9 @@ top-ten-classic-sci-fi:
       id: 1
       slug: the-war-of-the-worlds
       title: The war of the worlds
-      description: The War of the Worlds is a science fiction novel by English author H. G. Wells, first serialised in 1897 by Pearson's Magazine in the UK and by Cosmopolitan magazine in the US. The novel's first appearance in hardcover was in 1898 from publisher William Heinemann of London. Written between 1895 and 1897,[2] it is one of the earliest stories to detail a conflict between mankind and an extraterrestrial race.[3] The novel is the first-person narrative of both an unnamed protagonist in Surrey and of his younger brother in London as southern England is invaded by Martians. The novel is one of the most commented-on works in the science fiction canon.
+      description: "Smart UFOs enthusiasts have a love/hate relationship with H. G. Wells’ The War of the Worlds. For the first time in this novel, we are faced with the possibility of encounter with smart aliens. On the other hand, these creatures are hostile and have one goal in mind: occupy the Earth. This cynical theme was not something to be easily forgotten by the other writers in the century to come. Maybe one day, we get to see for ourselves if Wells was a realist or a pessimist."
       address: 0x222222
-      count: 10
+      count: 5
       priority: 2
       author: H. G. Wells
       published_at: 1898
@@ -27,9 +28,9 @@ top-ten-classic-sci-fi:
       id: 2
       slug: twenty-thousand-leagues-under-the-sea
       title: Twenty thousand leagues under the sea
-      description: The novel was originally serialized from March 1869 through June 1870 in Pierre-Jules Hetzel's fortnightly periodical, the Magasin d'éducation et de récréation. A deluxe octavo edition, published by Hetzel in November 1871, included 111 illustrations by Alphonse de Neuville and Édouard Riou.[1] The book was widely acclaimed on its release and remains so.
+      description: In his adventure book, Jules Verne pictured a giant submarine whose replica was invented only decades later after the novel. The dreamy Nautilus reappeared in The Mysterious Island. On the other hand, Nautilus is one of the sources of inspiration for the fans of Steampunk. Nautilus turned out to be a popular name for all kinds of ships and submarines later on.
       address: 0x222222
-      count: 10
+      count: 5
       priority: 3
       author: Jules Verne
       published_at: 1870
@@ -37,9 +38,9 @@ top-ten-classic-sci-fi:
       id: 3
       slug: the-island-of-doctor-moreau
       title: The island of doctor Moreau
-      description: is an 1896 science fiction novel by English author H. G. Wells. The text of the novel is the narration of Edward Prendick, a shipwrecked man rescued by a passing boat who is left on the island home of Doctor Moreau, a mad scientist who creates human-like hybrid beings from animals via vivisection. The novel deals with a number of philosophical themes, including pain and cruelty, moral responsibility, human identity, and human interference with nature.
+      description: Nowadays, secret military labs who harvest genetically altered creatures is a popular myth among those who entertain themselves with conspiracy theories. But this idea was first brought up in The Island of Doctor Moreau, a novel by H. G. Wells. This book is about an Island in which a half crazy doctor grows his genetically altered creatures as slaves. His vision about genetic alteration and the essence of mankind are still viable and noteworthy.
       address: 0x222222
-      count: 10
+      count: 5
       priority: 4
       author: H. G. Wells
       published_at: 1896
@@ -47,9 +48,9 @@ top-ten-classic-sci-fi:
       id: 4
       slug: the-invisible-man
       title: The invisible man
-      description: is a science fiction novel by H. G. Wells. Originally serialized in Pearson's Weekly in 1897, it was published as a novel the same year. The Invisible Man the title refers to is Griffin, a scientist who has devoted himself to research into optics and invents a way to change a body's refractive index to that of air so that it neither absorbs nor reflects light and thus becomes invisible.
+      description: We are highly indebted to H. G. Wells for what we know about soft sci-fi, specially to his book, The Invisible Man. In his book, we get to explore how being invisible can result in very complex inter-personal situations. His story is still a source of inspiration for writers and filmmakers to this day. 100 years have passed since The Invisible Man was first published and yet, being invisible is still a dream to come true for the mankind.
       address: 0x222222
-      count: 10
+      count: 5
       priority: 5
       author: H. G. Wells
       published_at: 1897
@@ -57,9 +58,9 @@ top-ten-classic-sci-fi:
       id: 5
       slug: the-facts-in-the-case-of-m.-valdemar
       title: The facts in the case of M. Valdemar
-      description: a short story by American author Edgar Allan Poe about a mesmerist who puts a man in a suspended hypnotic state at the moment of death. An example of a tale of suspense and horror, it is also, to a certain degree, a hoax, as it was published without claiming to be fictional, and many at the time of publication (1845) took it to be a factual account. Poe toyed with this for a while before admitting it was a work of pure fiction in his marginalia. 
+      description: In Poe’s time, Hypnosis was still considered sorcery. Years later, hypnosis was gradually perceived to be a part of pseudo-science and later on, science, rather than sorcery and witchcraft. In his story however, Poe employs hypnosis to enter the dark side of the mind as if it is an established part of the science in his time. His story is a borderline between science fiction and dark fantasy.
       address: 0x222222
-      count: 10
+      count: 5
       priority: 6
       author: Edgar Allan Poe
       published_at: 1845
@@ -67,9 +68,9 @@ top-ten-classic-sci-fi:
       id: 6
       slug: journey-to-the-center-of-the-earth
       title: Journey to the center of the earth
-      description: Journey to the Center of the Earth (Voyage au centre de la Terre), also translated with the variant titles A Journey to the Centre of the Earth and A Journey into the Interior of the Earth), is a classic science fiction novel by Jules Verne. It was first published in French in 1864, then reissued in 1867 in a revised and expanded edition. 
+      description: What is going on underneath our world? In his legendary piece of work, Jules Verne revived dinosaurs and other ancient creatures in depths of Earth and painted our world in a different color. This book is among the first works in which the reader faces both giant fictional monsters and a set of mysteries combined with scientific facts.
       address: 0x222222
-      count: 10
+      count: 5
       priority: 7
       author: Jules Verne
       published_at: 1864
@@ -77,9 +78,9 @@ top-ten-classic-sci-fi:
       id: 7
       slug: from-the-earth-to-the-moon
       title: From the earth to the moon
-      description: an 1865 novel by Jules Verne. It tells the story of the Baltimore Gun Club, a post-American Civil War society of weapons enthusiasts, and their attempts to build an enormous Columbiad space gun and launch three people—the Gun Club's president, his Philadelphian armor-making rival, and a French poet—in a projectile with the goal of a Moon landing. Five years later, Verne wrote a sequel called Around the Moon. 
+      description: Jules Verne wrote this story in a time when we were still half a century away from seeing the first air plane flying. Like all the other dreamers, he was able to see further in time. It took 104 years for his dream to come true. Hats off to his extraordinary vision.
       address: 0x222222
-      count: 10
+      count: 5
       priority: 8
       author: Jules Verne
       published_at: 1865
@@ -87,9 +88,10 @@ top-ten-classic-sci-fi:
       id: 8
       slug: frankenstein
       title: Frankenstein
-      description: an 1818 novel written by English author Mary Shelley (1797–1851) that tells the story of Victor Frankenstein, a young scientist who creates a hideous sapient creature in an unorthodox scientific experiment. Shelley started writing the story when she was 18, and the first edition was published anonymously in London on 1 January 1818, when she was 20.[2] Her name first appeared in the second edition published in Paris in 1821.
+      description: "Mary Shelley’s shocking novel is still one of the most powerful images of the encounter between man and an intelligent creature born out of science. 
+No work under this sub-genre can overlook Frankenstein and its gory world. Mary Shelley’s creation (which has no name other than this creation) has been a part of the pop culture in the world and what better reason is there to put this book among the best of all time?"
       address: 0x222222
-      count: 10
+      count: 5
       priority: 9
       author: Mary Shelley
       published_at: 1823
@@ -97,9 +99,9 @@ top-ten-classic-sci-fi:
       id: 9
       slug: a-descent-into-the-maelstrom
       title: A descent into the maelstrom
-      description: an 1841 short story by Edgar Allan Poe. In the tale, a man recounts how he survived a shipwreck and a whirlpool. It has been grouped with Poe's tales of ratiocination and also labeled an early form of science fiction.
+      description: A sci-fi story about a frozen Earth or oceans flooding and overflowing seems very ordinary today. But 120 years ago, it was not so ordinary. Someone wrote a story about a man who was caught in a whirlpool and described with horrifying details what he goes through and how he fights the gruesome forces of nature. That someone is Edgar Allan Poe and his moving story is the pioneer of one of the sci-fi sub-genres. Thank you, Mr. Poe!
       address: 0x222222
-      count: 10
+      count: 5
       priority: 10
       author: Edgar Allan Poe
       published_at: 1841

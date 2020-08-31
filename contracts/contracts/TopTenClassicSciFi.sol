@@ -7,11 +7,11 @@ contract TopTenClassicSciFi is ERC721Tradable {
   constructor(address _proxyRegistryAddress) ERC721Tradable("TopTenClassicSciFi", "TTCSF", _proxyRegistryAddress) public {  }
 
   function baseTokenURI() public view returns (string memory) {
-    return "https://xcgradus.pomodoro.works/api/top-ten-classic-sci-fi/";
+    return "https://xcgradus.xyz/api/top-ten-classic-sci-fi/";
   }
 
   function contractURI() public view returns (string memory) {
-    return "http://xcgradus.pomodoro.works/top-ten-classic-sci-fi/contract";
+    return "http://xcgradus.xyz/top-ten-classic-sci-fi/contract";
   }
 }
 

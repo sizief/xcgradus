@@ -20,14 +20,20 @@
           <%= @item[:published_at] %>
         </h2>
         <div class="tags has-addons">
-          <span class="tag">ERC721 Token</span>
-          <span class="tag is-primary">10 copies</span>
+          <span class="tag">
+            <%= link_to 'Contract', @collection[:contract_address] %>
+          </span>
+          <span class="tag is-primary">ERC721 Token</span>
         </div>
         <div class="tags has-addons">
           <span class="tag">
             <%= link_to @collection[:title], collection_path({collection: @collection[:slug]}) %>
           </span>
-          <span class="tag is-primary"><%= @item[:id] %></span>
+          <span class="tag is-primary">10</span>
+        </div>
+        <div class="tags has-addons">
+          <span class="tag">Copies</span>
+          <span class="tag is-primary"><%= @item[:count] %></span>
         </div>
       </div>
     </div>
@@ -42,7 +48,7 @@
       <div class="column is-1"></div>
     </div>
 
-
+    <% unless @owners.empty? %>
     <div class="columns">
       <div class="column is-2"></div>
       <div class="column is-8">
@@ -73,6 +79,7 @@
       </div>
       <div class="column is-2"></div>
     </div>
+    <% end %>
 
 
     <div class="columns">

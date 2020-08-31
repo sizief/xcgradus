@@ -47,7 +47,7 @@ async function main() {
       NFT_CONTRACT_ADDRESS,
       { gasLimit: '1000000' }
     )
-
+console.log(`Minting for ${NETWORK}, ${NFT_CONTRACT_ADDRESS}`)
     // NFTs issued directly to the owner.
     for (var i = 0; i < NUM_ITEMS; i++) {
       const result = await nftContract.methods

@@ -23,7 +23,7 @@
       <%= @collection[:title] %>
     </h2>
     <p class='mb-5'>
-      We stand on the shoulders of the giants. 
+    <%=  @collection[:description] %>
     </p>
     <div class="tile is-ancestor">
       <% for item_key in @collection[:items].keys[0..2] %>

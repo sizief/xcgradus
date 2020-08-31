@@ -11,7 +11,7 @@ class CollectionController < ApplicationController
     render json: {
       description: collection[:description],
       name: collection[:title],
-      image: nil,
+      image: "#{root_url}icon.png",
       external_link: "#{root_url}#{collection[:slug]}"
     }
   end
