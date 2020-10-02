@@ -1,6 +1,6 @@
 top-ten-classic-sci-fi:
-  contract_address: https://rinkeby.etherscan.io/token/0x112537FF9958c9B14E4FC0f427c29Ee8ECd44f98
-  opensea_store: https://rinkeby.opensea.io/assets/0x112537FF9958c9B14E4FC0f427c29Ee8ECd44f98
+  contract_address: https://etherscan.io/token/0x171FEF047CA885dc2B70626644Ee7C2160152971
+  opensea_store: https://opensea.io/assets/0x171FEF047CA885dc2B70626644Ee7C2160152971
   slug: top-ten-classic-sci-fi
   title: Top Ten Classic Sci fi
   description: A collection of digital paintings of some of the best science fiction novels of the 19th century. We select ten novels that has the most profound effect on our vision of the future.

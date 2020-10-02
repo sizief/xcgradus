@@ -1,0 +1,113 @@
+Compiling your contracts...
+===========================
+> Compiling ./contracts/TopTenClassicSciFi.sol
+^C> Compilation warnings encountered:
+
+    /home/ali/projects/xcgradus/contracts/contracts/ERC721Tradable.sol:52:3: Warning: Function state mutability can be restricted to pure
+  function baseTokenURI() public view returns (string memory) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+,/home/ali/projects/xcgradus/contracts/contracts/TopTenClassicSciFi.sol:13:3: Warning: Function state mutability can be restricted to pure
+  function contractURI() public view returns (string memory) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+
+> Artifacts written to /home/ali/projects/xcgradus/contracts/build/contracts
+> Compiled successfully using:
+   - solc: 0.5.5+commit.47a71e8f.Emscripten.clang
+
+Unknown network "main". See your Truffle configuration file for available networks.
+Truffle v5.1.32 (core: 5.1.32)
+Node v13.5.0
+pop-os ➜  contracts git:(master) ✗ truffle deploy --network mainnet
+
+Compiling your contracts...
+===========================
+> Compiling ./contracts/TopTenClassicSciFi.sol
+> Compilation warnings encountered:
+
+    /home/ali/projects/xcgradus/contracts/contracts/ERC721Tradable.sol:52:3: Warning: Function state mutability can be restricted to pure
+  function baseTokenURI() public view returns (string memory) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+,/home/ali/projects/xcgradus/contracts/contracts/TopTenClassicSciFi.sol:13:3: Warning: Function state mutability can be restricted to pure
+  function contractURI() public view returns (string memory) {
+  ^ (Relevant source part starts here and spans across multiple lines).
+
+> Artifacts written to /home/ali/projects/xcgradus/contracts/build/contracts
+> Compiled successfully using:
+   - solc: 0.5.5+commit.47a71e8f.Emscripten.clang
+
+
+
+Migrations dry-run (simulation)
+===============================
+> Network name:    'mainnet-fork'
+> Network id:      1
+> Block gas limit: 12518288 (0xbf0390)
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'TopTenClassicSciFi'
+   ------------------------------
+   > block number:        10978283
+   > block timestamp:     1601664795
+   > account:             0x9b21cF655781A15f0AB5109f5d6291874bBf8EB9
+   > balance:             0.150243141705525837
+   > gas used:            2931238 (0x2cba26)
+   > gas price:           50 gwei
+   > value sent:          0 ETH
+   > total cost:          0.1465619 ETH
+
+   -------------------------------------
+   > Total cost:           0.1465619 ETH
+
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.1465619 ETH
+
+
+
+
+
+Starting migrations...
+======================
+> Network name:    'mainnet'
+> Network id:      1
+> Block gas limit: 12493818 (0xbea3fa)
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'TopTenClassicSciFi'
+   ------------------------------
+   > transaction hash:    0xdf9593684f6256db3fbf7daefee5c72e7150cb9a1333151e0b912b33594a3c38
+   > Blocks: 36           Seconds: 489
+   > contract address:    0x171FEF047CA885dc2B70626644Ee7C2160152971
+   > block number:        10978324
+   > block timestamp:     1601665325
+   > account:             0x9b21cF655781A15f0AB5109f5d6291874bBf8EB9
+   > balance:             0.144243141705525837
+   > gas used:            3051238 (0x2e8ee6)
+   > gas price:           50 gwei
+   > value sent:          0 ETH
+   > total cost:          0.1525619 ETH
+
+   Pausing for 1 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 10978325)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:           0.1525619 ETH
+
+
+Summary
+=======
+> Total deployments:   1
+> Final cost:          0.1525619 ETH
+
+
