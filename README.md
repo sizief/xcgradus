@@ -30,7 +30,7 @@ node scripts/mint.js
 [x] Domain
 [x] Contracts on testnet
 [x] Contracts on Mainnet
-[] Change the contract address on data yaml file
+[x] Change the contract address on data yaml file
 [] Change the store front on data yaml file
 [] SEO
 [] About us
@@ -39,3 +39,4 @@ node scripts/mint.js
 ### Costs
 3$ domain registery
 70$ Contract deployment 
+30$ Mint 10 items  
