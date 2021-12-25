@@ -9,7 +9,7 @@ services:
       RAILS_ENV: $RAILS_ENV
       ENTRYPOINT: app
     ports:
-      - 3001:3000
+      - 3002:3000
     volumes:
       - .:/usr/src/app
     tty: true
