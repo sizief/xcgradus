@@ -2,8 +2,7 @@ default: &default
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
-  adapter: <%= ENV["DATABASE_ADAPTER"] %> #sqlite3 or postgresql
-  port: <%= ENV["POSTGRES_PORT"] %>
+  adapter: sqlite3 
   database: <%= ENV["POSTGRES_DB"] %> #localhost or db
 
 development:
